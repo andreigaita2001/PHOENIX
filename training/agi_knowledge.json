@@ -1,0 +1,63 @@
+{
+  "patterns": [
+    {
+      "task": "List all files in the current directory with details",
+      "command": "ls -l",
+      "output_sample": "total 132\n-rwxrwxr-x  1 bone bone  2147 Nov  1 09:58 consolidate_to_single_boot.sh\ndrwxrwxr-x  7 bone bone  4096 Nov 11 22:15 data\ndrwxrwxr-x  2 bone bone  4096 Nov  9 16:53 Desktop\ndrwxr-xr-x 18 bone",
+      "learned_at": "2025-11-17T08:32:56.615028"
+    },
+    {
+      "task": "Show the current working directory path",
+      "command": "pwd",
+      "output_sample": "/home/bone\n",
+      "learned_at": "2025-11-17T08:32:59.368320"
+    },
+    {
+      "task": "Find all Python files in /home/bone/PHOENIX",
+      "command": "find /home/bone/PHOENIX -name \"*.py\"",
+      "output_sample": "/home/bone/PHOENIX/venv/lib/python3.12/site-packages/attr/_funcs.py\n/home/bone/PHOENIX/venv/lib/python3.12/site-packages/attr/converters.py\n/home/bone/PHOENIX/venv/lib/python3.12/site-packages/attr/_c",
+      "learned_at": "2025-11-17T08:33:04.384265"
+    },
+    {
+      "task": "Count the number of lines in /home/bone/PHOENIX/README.md",
+      "command": "wc -l /home/bone/PHOENIX/README.md",
+      "output_sample": "58 /home/bone/PHOENIX/README.md\n",
+      "learned_at": "2025-11-17T08:33:09.232458"
+    },
+    {
+      "task": "List only directories in /home/bone/PHOENIX",
+      "command": "ls -d /home/bone/PHOENIX/*/",
+      "output_sample": "/home/bone/PHOENIX/backups/\n/home/bone/PHOENIX/config/\n/home/bone/PHOENIX/core/\n/home/bone/PHOENIX/data/\n/home/bone/PHOENIX/improvements/\n/home/bone/PHOENIX/logs/\n/home/bone/PHOENIX/memory/\n/home/bone",
+      "learned_at": "2025-11-17T08:33:13.867808"
+    },
+    {
+      "task": "hey buddy",
+      "command": "echo \"hey buddy\"",
+      "output_sample": "hey buddy\n",
+      "learned_at": "2025-11-17T08:36:11.992698"
+    },
+    {
+      "task": "find all markdown files in",
+      "command": "find . -name \"*.md\"",
+      "output_sample": "./dotfiles/README.md\n./PHOENIX-local-agi/QUICKSTART.md\n./PHOENIX-local-agi/README_AGI.md\n./PHOENIX-local-agi/training/TEACHING_LOOP.md\n./PHOENIX-local-agi/training/README.md\n./PHOENIX-local-agi/traini",
+      "learned_at": "2025-11-17T08:38:55.634724"
+    },
+    {
+      "task": "find all files in /home/bone/Downloads",
+      "command": "find /home/bone/Downloads -type f",
+      "output_sample": "/home/bone/Downloads/display_gui_with_signals.py\n/home/bone/Downloads/INSTALL_BUY_SIGNALS.sh\n/home/bone/Downloads/takeout-20251112T012817Z-5-001.zip\n/home/bone/Downloads/install_premium_design.sh\n/hom",
+      "learned_at": "2025-11-17T08:42:18.252425"
+    }
+  ],
+  "task_mappings": {
+    "List all files in the current directory with details": "ls -l",
+    "Show the current working directory path": "pwd",
+    "Find all Python files in /home/bone/PHOENIX": "find /home/bone/PHOENIX -name \"*.py\"",
+    "Count the number of lines in /home/bone/PHOENIX/README.md": "wc -l /home/bone/PHOENIX/README.md",
+    "List only directories in /home/bone/PHOENIX": "ls -d /home/bone/PHOENIX/*/",
+    "hey buddy": "echo \"hey buddy\"",
+    "find all markdown files in": "find . -name \"*.md\"",
+    "find all files in /home/bone/Downloads": "find /home/bone/Downloads -type f"
+  },
+  "learned_at": "2025-11-17T08:32:49.372352"
+}

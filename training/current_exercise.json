@@ -1,0 +1,8 @@
+{
+  "level": 1,
+  "exercise_num": 2,
+  "task": "Display the contents of the file /home/bone/PHOENIX-local-agi/README.md",
+  "hints": ["Use the cat command to display file contents", "The file is README.md in the PHOENIX-local-agi directory"],
+  "correct_command": "cat /home/bone/PHOENIX-local-agi/README.md",
+  "validation": "Should display the full contents of the README file"
+}

@@ -1,0 +1,156 @@
+{
+  "name": "Terminal Mastery - Full Course",
+  "goal": "Achieve 100% autonomous terminal usage capability",
+  "levels": [
+    {
+      "level": 1,
+      "name": "Basic Commands",
+      "skills": [
+        "File listing (ls, tree)",
+        "Directory navigation (cd, pwd)",
+        "File viewing (cat, head, tail, less)",
+        "Simple file operations (cp, mv, rm, mkdir)",
+        "File search (find, locate)"
+      ],
+      "exercises": [
+        "List all files in a directory",
+        "Navigate to a specific path",
+        "View first 10 lines of a file",
+        "Copy a file to another location",
+        "Find all .py files in a directory tree"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Text Processing",
+      "skills": [
+        "Pattern matching (grep, awk)",
+        "Text transformation (sed, tr)",
+        "Sorting and filtering (sort, uniq)",
+        "File comparison (diff, comm)",
+        "Word counting (wc)"
+      ],
+      "exercises": [
+        "Find all lines containing 'error' in log files",
+        "Replace text in files using sed",
+        "Sort and deduplicate a list",
+        "Compare two files and show differences",
+        "Count lines/words in multiple files"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Process & System Management",
+      "skills": [
+        "Process listing (ps, top, htop)",
+        "Process control (kill, pkill)",
+        "System info (uname, df, free)",
+        "Service management (systemctl)",
+        "User management (whoami, groups)"
+      ],
+      "exercises": [
+        "Find and kill a process by name",
+        "Check disk usage and free space",
+        "View system resource usage",
+        "Restart a system service",
+        "Check current user and permissions"
+      ]
+    },
+    {
+      "level": 4,
+      "name": "Networking",
+      "skills": [
+        "Network testing (ping, curl, wget)",
+        "Port checking (netstat, ss, lsof)",
+        "DNS lookup (dig, nslookup)",
+        "Network config (ip, ifconfig)",
+        "Remote access (ssh, scp)"
+      ],
+      "exercises": [
+        "Test connectivity to a host",
+        "Download a file from URL",
+        "Check what's listening on a port",
+        "Look up DNS records",
+        "Transfer files securely"
+      ]
+    },
+    {
+      "level": 5,
+      "name": "Scripting & Automation",
+      "skills": [
+        "Bash scripting basics",
+        "Variables and loops",
+        "Conditionals and functions",
+        "Command substitution",
+        "Error handling"
+      ],
+      "exercises": [
+        "Write a script to backup files",
+        "Create a loop to process multiple files",
+        "Script with conditional logic",
+        "Function to automate common task",
+        "Error handling in scripts"
+      ]
+    },
+    {
+      "level": 6,
+      "name": "Advanced Operations",
+      "skills": [
+        "Pipelines and redirection",
+        "Job control (bg, fg, jobs)",
+        "Archive management (tar, zip)",
+        "Package management (apt, pip)",
+        "Git operations"
+      ],
+      "exercises": [
+        "Chain commands with pipes",
+        "Run long tasks in background",
+        "Create and extract archives",
+        "Install and manage packages",
+        "Git clone, commit, push"
+      ]
+    },
+    {
+      "level": 7,
+      "name": "System Administration",
+      "skills": [
+        "Log analysis",
+        "Cron jobs",
+        "Environment variables",
+        "Permission management (chmod, chown)",
+        "Disk management"
+      ],
+      "exercises": [
+        "Analyze system logs for issues",
+        "Schedule automated tasks",
+        "Set environment variables",
+        "Fix file permissions",
+        "Manage disk partitions"
+      ]
+    },
+    {
+      "level": 8,
+      "name": "Performance & Debugging",
+      "skills": [
+        "Performance monitoring",
+        "Debugging tools (strace, lsof)",
+        "Resource optimization",
+        "Troubleshooting techniques",
+        "Complex problem solving"
+      ],
+      "exercises": [
+        "Profile command performance",
+        "Debug a failing process",
+        "Optimize resource usage",
+        "Troubleshoot system issues",
+        "Solve multi-step problems"
+      ]
+    }
+  ],
+  "mastery_criteria": {
+    "success_rate": 0.95,
+    "avg_attempts": 1.2,
+    "speed_percentile": 80,
+    "independence": 1.0
+  }
+}
